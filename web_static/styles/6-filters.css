@@ -1,12 +1,12 @@
 /*filters styles*/
 .filters {
-    color: white;
+    background-color: #fff;
     height: 70px;
     border-radius: 4px;
     border: 1px solid #DDDDDD;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    position: relative;
     align-items: center;
 }
 
@@ -66,15 +66,13 @@ button:hover {
     display: none;
     position: absolute;
     background-color: #FAFAFA;
-    width: 100%;
-    padding-right: 22px;
+    width: calc(100% - 22px);
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     list-style-type: none;
     padding: 10px;
-    top: auto;
-    bottom: -10px;
     left: 0;
+    top: calc(100% + 10px);
 }
 
 .locations:hover .popover,

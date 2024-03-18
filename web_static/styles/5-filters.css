@@ -33,15 +33,16 @@ button:hover {
 .amenities {
     height: 100;
     width:25%;
-    box-sizing:border-box;
-    border-right: 1px solid #DDDDDD;
     color: black;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 20px;
+}
+
+.locations {
+    border-right: 1px solid #dddddd;
 }
 
 .locations h3,
