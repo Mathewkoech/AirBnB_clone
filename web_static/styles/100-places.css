@@ -1,4 +1,4 @@
-/*Places styling*/
+/*Places style */
 
 .places {
     margin-top: 20px;
@@ -87,54 +87,62 @@
     font-size: 14px;
 }
 
-.amenities {
-    margin-top: 40px;
+.places .amenities,
+.places .reviews {
+  margin-top: 40px;
+}
+.places .amenities li {
+  display: flex;
+  flex-direction: row;
 }
 
-.amenities h2 {
-    font-size: 16px;
-    border-bottom: 1px solid #DDDDDD;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+/* Individual amenity style */
+.places .amenities i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 5%;
 }
 
-.amenities ul {
-    list-style: none;
+/* Align amenity text with icon */
+.places .amenities p {
+  margin-top: 20px;
 }
 
-.amenities ul li {
-    margin-bottom: 10px;
+.places h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: .67em 0 .67em 0;
+  width: 100%;
+}
+.places h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.reviews {
-    margin-top: 40px;
+.places .reviews h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  margin-top: 20px;
 }
 
-.reviews h2 {
-    font-size: 16px;
-    border-bottom: 1px solid #DDDDDD;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+/* Amenities and reviews header 2 style */
+.places .amenities h2,
+.places .reviews h2 {
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-align: left;
 }
-
-.reviews ul {
-    list-style: none;
-}
-
-.reviews ul li {
-    margin-bottom: 20px;
-}
-
-.reviews h3 {
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.reviews p {
-    font-size: 12px;
-}
-
 footer {
     position: relative;
 }
