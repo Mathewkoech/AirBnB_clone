@@ -55,3 +55,38 @@ button:hover {
     font-size: 14px;
     margin-top: 10px;
 }
+
+.locations:hover,
+.amenities:hover {
+    background-color: #fafafa;
+}
+
+.locations .popover,
+.amenities .popover {
+    display: none;
+    position: absolute;
+    background-color: #FAFAFA;
+    width: 100%;
+    padding-right: 22px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    list-style-type: none;
+    padding: 10px;
+    top: auto;
+    bottom: -10px;
+    left: 0;
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+    display: block;
+}
+
+.popover h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.popover > ul > li > ul {
+    margin: 10px 0 10px 20px;
+}
