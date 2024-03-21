@@ -1,0 +1,18 @@
+/*container styling*/
+* {
+    margin: 0;
+    padding: 0;
+    /* changes the box model to include the border and padding in the element's total width and height. */
+    box-sizing: border-box; 
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 30px auto;
+}
